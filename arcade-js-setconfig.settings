@@ -1,0 +1,16 @@
+# Local settings for arcade-js-setconfig.sh script
+
+PHYS["P1"]="usb-0000:00:14.0-9/input0"
+PHYS["P2"]="usb-0000:00:14.0-10/input0"
+PHYS["P3"]="usb-0000:00:14.0-1.1/input0"
+
+#TEST1
+#PHYS["P1"]="usb-0000:00:14.0-1.1.3/input1"
+#PHYS["P2"]="LNXVIDEO/video/input0"
+
+#TEST2
+#PHYS["P1"]="i2c-MSNB0001:00"
+#CFGFILE=~/downloads/es_settings.cfg
+
+#SYSFS_REGEX="^(/devices/[^/]+/[^/]+/[^:]+:[0-9]*)/.*"
+#CFGBACKUPEXT=""
