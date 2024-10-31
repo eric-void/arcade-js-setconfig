@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Force joystick order in EmulationStation config, detecting devices by their "Phys" address on /proc/bus/input/devices (a unique property that don't changes between boots)
+# Force joystick order in EmulationStation config, detecting devices by their "Phys" address on /proc/bus/input/devices (a unique property that don't change between boots).
 # Install on a batocera system by loading it in /boot/postshare.sh (use "mount -o remount,rw /boot" to write the file)
 # For example:
-# if [ "$1" == "start"] then /userdata/bin/arcade-js-setconfig.sh save; fi
+# if [ "$1" == "start" ] then /userdata/bin/arcade-js-setconfig.sh save; fi
 
 # Use arcade-js-setconfig.sh for a dry-run execution (test the command without saving the result)
 
