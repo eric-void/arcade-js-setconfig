@@ -70,7 +70,7 @@ fi
 
 RESULT=""
 
-for pkey in "${!PHYS[@]}"; do
+for pkey in P1 P2 P3 P4 P5 P6 P7 P8; do
     phys_addresses="${PHYS[${pkey}]}"
     for phys_address in ${phys_addresses}; do
         echo "Detecting device ${pkey} = ${phys_address} ..."
