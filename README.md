@@ -5,6 +5,9 @@ Use it when your arcade joysticks / joypads sometimes change order at boot.
 
 This script detect devices by their "Phys" address on /proc/bus/input/devices (a unique property that don't change between boots), then save them (in correct order) in _es_settings.cfg_ file.
 
+20250108 UPDATE: after a month without any problems, one night unexpectedly the PHYS addresses of my joysticks changed :(
+I updated the script to let you specify a list of Phys addresses for each player.
+
 ## Usage
 
 To use it you must first detect your controllers PHYS addresses, and place them in _arcade-js-setconfig.settings_ file.
