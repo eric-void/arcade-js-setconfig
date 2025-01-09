@@ -42,12 +42,15 @@ You can use settings below to change configuration
 
 ```
 # In "PHYS" variable insert, in correct order, "Phys" addresses of devices. You can find them by using the command "arcade-js-setconfig.sh list"
+# Each element can also be a list of possibile values separated by space
 # For full raw data:
 # cat /proc/bus/input/devices | grep "\(Joystick\|lightgun\|pad\)" -A 10 -B 1
 declare -A PHYS
 # Example:
 # PHYS["P1"]="usb-0000:00:14.0-9/input0"
 # PHYS["P2"]="usb-0000:00:14.0-10/input0"
+# or
+# PHYS["P1"]="usb-0000:00:14.0-9/input0 usb-0000:00:15.1/input0"
 
 # Path to EmulationStation config file
 CFGFILE=/userdata/system/configs/emulationstation/es_settings.cfg
