@@ -1,5 +1,5 @@
 # arcade-js-setconfig
-Shell script to set emulationstation/batocera controller order at boot.
+Shell script to set emulationstation/batocera controller order at boot (tested on Batocera V40 & V41)
 
 Use it when your arcade joysticks / joypads sometimes change order at boot.
 
@@ -7,6 +7,8 @@ This script detect devices by their "Phys" address on /proc/bus/input/devices (a
 
 20250108 UPDATE: after a month without any problems, one night unexpectedly the PHYS addresses of my joysticks changed :(
 I updated the script to let you specify a list of Phys addresses for each player.
+
+20250901: updated Batocera to V41, everything is working! (No more problems since last updadte).
 
 ## Usage
 
